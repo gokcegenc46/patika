@@ -1,0 +1,10 @@
+## [16,21,11,8,12,22] merge sort'a göre aşamaları:
+[16,21,11] ve [8,12,22] olarak parçalıyorum.
+[16,21] ve [11] - [8,12] ve [22] olarak ayırdım.
+[11,16,21] ve [8,12,22] sıralayarak birleştiriyorum.
+[8,11,12,16,21,22] son hali.
+
+## Big-O gösterimini yazınız.
+Her defasında yarıya iniyor. 
+2^x = n ise logn = x'tir
+O(nlogn)'dir. 
